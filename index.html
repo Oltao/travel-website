@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav id="nav-bar">
+        <div class="logo">
+          <img src="/assets/images/logo.png" alt="2rism logo" />
+        </div>
+        <div class="menu-list">
+          <a href="#">Home</a>
+          <a href="#">Hotels</a>
+          <a href="#">Restaurants</a>
+          <a href="#">Tours</a>
+          <a href="#">Destinations</a>
+          <a href="#">Activities</a>
+          <a href="#">Contact</a>
+        </div>
+        <div class="profile">
+          <div class="user-welcome">
+            <p class="hello-text">Holla,</p>
+            <p class="user-name">Ales Nesetril</p>
+          </div>
+          <img src="/assets/images/img.png" class="user-img" />
+          <span class="notification"></span>
+        </div>
+        <div id="hamburger-menu">
+          <img src="/assets/icons/menu.svg" alt="menu" />
+        </div>
+        <div id="close-menu">
+          <img src="/assets/icons/close-menu.svg" alt="close-menu" />
+        </div>
+      </nav>
+      <div id="mobile-menu-list">
+        <a href="#">Home</a>
+        <a href="#">Hotels</a>
+        <a href="#">Restaurants</a>
+        <a href="#">Tours</a>
+        <a href="#">Destinations</a>
+        <a href="#">Activities</a>
+        <a href="#">Contact</a>
+      </div>
+    </header>
+    <article>
+      <div class="hero-section">
+        <p class="hero-heading">Discover the most engaging places</p>
+        <button class="discover-btn">Discover on 3D Globe</button>
+        <div class="search-box">
+          <form id="search-section">
+            <div class="location-section">
+              <label for="location">Location</label>
+              <select name="location" id="location">
+                <option value="" disabled selected>
+                  Explore nearby destination
+                </option>
+                <option value="Taiwo">Taiwo</option>
+                <option value="Surulere">Surulere</option>
+                <option value="Challenge">Challenge</option>
+                <option value="Tanke">Tanke</option>
+              </select>
+            </div>
+            <div class="activity-section">
+              <label for="activity">Activity</label>
+              <select name="activity" id="activity">
+                <option value="" disabled selected>All Activities</option>
+                <option value="">Activity 1</option>
+                <option value="">Activity 2</option>
+                <option value="">Activity 3</option>
+              </select>
+            </div>
+            <div class="date-section">
+              <label for="travel-date">When</label>
+              <input type="date" id="travel-date" placeholder="Choose a date" />
+            </div>
+            <div class="guest-section">
+              <label for="num-guest">Guest</label>
+              <select name="num-guest" id="num-guest">
+                <option value="1" selected>1 guest</option>
+                <option value="2">2 guests</option>
+                <option value="3">2 guests</option>
+              </select>
+            </div>
+            <button type="submit">
+              <img src="/assets/icons/search-icon.svg" />
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="travel-container">
+        <h2>Popular Destinations</h2>
+        <div class="col">
+          <div class="img-col">
+            <img src="/assets/images/Big-Sur.png" />
+            <p class="city-title">Big Sur</p>
+            <p class="sub-title">California, USA</p>
+          </div>
+          <div class="img-col">
+            <img src="/assets/images/img-10.png" />
+            <p class="city-title">Prescott</p>
+            <p class="sub-title">Arizona, USA</p>
+          </div>
+          <div class="img-col">
+            <img src="/assets/images/img-9.png" />
+            <p class="city-title">Fort Mayers</p>
+            <p class="sub-title">Florida, USA</p>
+          </div>
+          <div class="img-col">
+            <img src="/assets/images/img-8.png" />
+            <p class="city-title">Tucson</p>
+            <p class="sub-title">Arizona, USA</p>
+          </div>
+          <div class="img-col">
+            <img src="/assets/images/img-7.png" />
+            <p class="city-title">St. Joseph</p>
+            <p class="sub-title">Michigan, USA</p>
+          </div>
+          <div class="img-col">
+            <img src="/assets/images/img-6.png" />
+            <p class="city-title">Madrid</p>
+            <p class="sub-title">Spain</p>
+          </div>
+        </div>
+        <div class="heading">
+          <h2>Hotels and Restaurants</h2>
+          <span class="view-all-btn">view all</span>
+        </div>
+        <div class="col">
+          <div class="img-col-2">
+            <img src="/assets/images/img-5.png" />
+            <p class="city-title">Monastero Santa Rosa Hotel & Spa</p>
+            <div class="title-star">
+              <p class="sub-title">Salerno, Italy</p>
+              <span>
+                <img src="/assets/icons/unfilled-star-icon.svg" alt="" />
+                <img src="/assets/icons/unfilled-star-icon.svg" alt="" />
+                <img src="/assets/icons/unfilled-star-icon.svg" alt="" />
+                <img src="/assets/icons/unfilled-star-icon.svg" alt="" />
+                <img src="/assets/icons/unfilled-star-icon.svg" alt="" />
+              </span>
+            </div>
+          </div>
+          <div class="img-col-2">
+            <img src="/assets/images/img-4.png" />
+            <p class="city-title">Grand Hotel Tremezzo</p>
+            <div class="title-star">
+              <p class="sub-title">Lake Como, Italy</p>
+              <span>
+                <img src="/assets/icons/unfilled-star-icon.svg" alt="" />
+                <img src="/assets/icons/unfilled-star-icon.svg" alt="" />
+                <img src="/assets/icons/unfilled-star-icon.svg" alt="" />
+                <img src="/assets/icons/filled-star-icon.svg" alt="" />
+                <img src="/assets/icons/filled-star-icon.svg" alt="" />
+              </span>
+            </div>
+          </div>
+          <div class="img-col-2">
+            <img src="/assets/images/img-3.png" />
+            <p class="city-title">The Oberoi Udaivilas, Udaipur</p>
+            <div class="title-star">
+              <p class="sub-title">Udaipur, India</p>
+              <span>
+                <img src="/assets/icons/unfilled-star-icon.svg" alt="" />
+                <img src="/assets/icons/unfilled-star-icon.svg" alt="" />
+                <img src="/assets/icons/unfilled-star-icon.svg" alt="" />
+                <img src="/assets/icons/unfilled-star-icon.svg" alt="" />
+                <img src="/assets/icons/filled-star-icon.svg" alt="" />
+              </span>
+            </div>
+          </div>
+          <div class="img-col-2">
+            <img src="/assets/images/img-2.png" />
+            <p class="city-title">AKA Beverly Hills</p>
+            <div class="title-star">
+              <p class="sub-title">Los Angeles, United States</p>
+              <span>
+                <img src="/assets/icons/unfilled-star-icon.svg" alt="" />
+                <img src="/assets/icons/unfilled-star-icon.svg" alt="" />
+                <img src="/assets/icons/unfilled-star-icon.svg" alt="" />
+                <img src="/assets/icons/filled-star-icon.svg" alt="" />
+                <img src="/assets/icons/filled-star-icon.svg" alt="" />
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="heading">
+          <h2>Travel Tips and Advice</h2>
+          <span class="view-all-btn">view all</span>
+        </div>
+        <div class="card">
+          <div class="excerpt-card">
+            <img src="/assets/images/img-1.png" />
+            <div class="card-content">
+              <h2>East Village Ice Cream Crawl</h2>
+              <p>
+                We will stop at five different world-class ice cream shops on
+                this 1.5 mile 1.5 hour tour. At each ice cream store we'll
+                explore the story behind the business and see what makes the ice
+                cream unique as you savor every…
+              </p>
+              <div class="card-details">
+                <span class="date-day">Today</span>
+                <span class="user-fullname">Maria Philips</span>
+                <span class="num-comment">2</span>
+              </div>
+            </div>
+          </div>
+          <div class="excerpt-card">
+            <img src="/assets/images/img-city.png" />
+            <div class="card-content">
+              <h2>Brooklyn Bridge cinematic photo walk</h2>
+              <p>
+                This experience takes place at the Brooklyn Bridge Park and
+                Brooklyn Bridge, but I’m always open to capture clients at
+                different locations upon request for an additional charge.
+              </p>
+              <div class="card-details">
+                <span class="date-day">Today</span>
+                <span class="user-fullname">James Calzoni</span>
+                <span class="num-comment">17</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="heading">
+          <h2>Activities</h2>
+          <span class="view-all-btn">view all</span>
+        </div>
+        <div class="col">
+          <div class="img-col-2">
+            <img src="/assets/images/img-15.png" />
+            <p class="city-title">Sailing</p>
+          </div>
+          <div class="img-col-2">
+            <img src="/assets/images/img-14.png" />
+            <p class="city-title">Climbing</p>
+          </div>
+          <div class="img-col-2">
+            <img src="/assets/images/img-13.png" />
+            <p class="city-title">Skiing</p>
+          </div>
+          <div class="img-col-2">
+            <img src="/assets/images/img-12.png" />
+            <p class="city-title">Hiking</p>
+          </div>
+        </div>
+        <div id="about-section">
+          <div class="about">
+            <h2>About Us</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse a sapien justo. Nulla facilisis tristique imperdiet.
+              Nullam a placerat odio. Sed in ex augue. Aliquam porta consectetur
+              lorem sit amet ultrices. Class aptent taciti sociosqu ad litora
+              torquent per conubia nostra, per inceptos himenaeos.
+            </p>
+            <a href="#">Read More</a>
+          </div>
+          <img src="/assets/images/team-img.png" alt="team image">
+        </div>
+      </div>
+      <footer id="footer">
+        <div class="foot-1">
+          <img src="/assets/images/logo-black.svg" alt="logo" />
+          <p>
+            We always make our customers happy by providing as many choises as
+            possible.
+          </p>
+          <div class="social-icon">
+            <img src="/assets/icons/facebook-icon.svg" alt="facebook-icon" />
+            <img src="/assets/icons/twitter-icon.svg" alt="twitter-icon" />
+            <img src="/assets/icons/instagram-icon.svg" alt="instagram-icon" />
+          </div>
+        </div>
+        <div class="foot-2">
+          <h2>About</h2>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Menu</a></li>
+          </ul>
+        </div>
+        <div class="foot-3">
+          <h2>Company</h2>
+          <ul>
+            <li><a href="#">Why 2rism</a></li>
+            <li><a href="#">Partner With Us</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div class="foot-4">
+          <h2>Support</h2>
+          <ul>
+            <li><a href="#">Account</a></li>
+            <li><a href="#">Support Center</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="foot-5">
+          <h2>Subscribe on our destination review newsletters</h2>
+          <form id="email-form">
+            <div id="mail-box">
+              <label for="email">Your Email</label><br />
+              <input type="email" id="email" placeholder="johndoe@gmail.com" />
+            </div>
+            <button type="submit">
+              <img src="assets/icons/arrow-foward-icon.svg" alt="arrow" />
+            </button>
+          </form>
+        </div>
+      </footer>
+    </article>
+    <script src="script.js"></script>
+  </body>
+</html>
