@@ -73,7 +73,7 @@ body {
 }
 
 .hero-section {
-  background-image: url(/assets/images/background-world.jpg);
+  background-image: url(./assets/images/background-world.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -165,17 +165,17 @@ input {
 }
 
 .location-section::before {
-  content: url(/assets/icons/location-icon.svg);
+  content: url(./assets/icons/location-icon.svg);
 }
 
 .activity-section::before {
-  content: url(/assets/icons/riding-bike.svg);
+  content: url(./assets/icons/riding-bike.svg);
 }
 .date-section::before {
-  content: url(/assets/icons/date-icon.svg);
+  content: url(./assets/icons/date-icon.svg);
 }
 .guest-section::before {
-  content: url(/assets/icons/user-icon.svg);
+  content: url(./assets/icons/user-icon.svg);
 }
 
 .travel-container {
@@ -247,7 +247,7 @@ input {
 }
 
 .view-all-btn::after {
-  content: url(/assets/icons/view-all-arrow.svg);
+  content: url(./assets/icons/view-all-arrow.svg);
   padding: 5px;
   display: inline-block;
   vertical-align: middle;
@@ -281,7 +281,7 @@ input {
 }
 
 .about a::after {
-  content: url(/assets/icons/view-all-arrow.svg);
+  content: url(./assets/icons/view-all-arrow.svg);
   display: inline-block;
   vertical-align: middle;
   padding: 15px;
@@ -365,7 +365,7 @@ form {
 }
 
 #mail-box::before {
-  content: url(/assets/icons/letter-icon.svg);
+  content: url(./assets/icons/letter-icon.svg);
   position: absolute;
   top: 35%;
   left: 9px;
@@ -433,19 +433,19 @@ form {
 }
 
 .card-details .date-day::before {
-  content: url(/assets/icons/calender-icon.svg);
+  content: url(./assets/icons/calender-icon.svg);
 }
 
 .user-fullname::before {
-  content: url(/assets/icons/user-avatar.svg);
+  content: url(./assets/icons/user-avatar.svg);
 }
 
 .num-comment::before {
-  content: url(/assets/icons/comment-icon.svg);
+  content: url(./assets/icons/comment-icon.svg);
 }
 
 .img-col-2 .sub-title::before {
-  content: url(/assets/icons/location-icon.svg);
+  content: url(./assets/icons/location-icon.svg);
   display: inline-block;
   vertical-align: middle;
   padding-right: 5px;
